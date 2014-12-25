@@ -15,7 +15,7 @@ EOF
 
 cat >> $GOROOT/src/runtime/extern.go << EOF
 
-func GetGoId() int
+func GetGoId() int32
 
 EOF
 

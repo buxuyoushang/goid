@@ -1,7 +1,5 @@
 This project hack Go runtime to let your code can get goroutine id.
 
-It also reference by `github.com/funny/debug` and `github.com/funny/sync`.
-
 Since Go 1.4 we can't use `goc` file out `runtime` package anymore.
 
 So now we need to add the `GetGoId()` function into `runtime` package.
